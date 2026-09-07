@@ -45,10 +45,10 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-paper/20">
           <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
             <p className="text-paper/60 font-light text-[13px]">
-              Funded by the Lifes2Good Foundation and Dulra.
+              Funded by the Lifes2Good Foundation.
             </p>
             <p className="text-paper/60 font-light text-[13px]">
-              &copy; 2026 Dulra / Glas Future Limited.
+              &copy; 2026 - Glas Future Limited t/a Dulra .
             </p>
           </div>
         </div>
