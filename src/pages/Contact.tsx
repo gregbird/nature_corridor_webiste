@@ -3,7 +3,7 @@ import { Section, Divider, Eyebrow } from '../components/ui';
 const audienceBlocks = [
   {
     title: 'Ecologists',
-    desc: 'If you work in ecology or conservation, we want to hear what the map would need to do to be useful in your day-to-day work — what layers you would trust, what resolution you need, and what is missing from existing tools.',
+    desc: 'If you work in ecology or conservation, we want to hear what the map would need to do to be useful in your day-to-day work what layers you would trust, what resolution you need, and what is missing from existing tools.',
   },
   {
     title: 'Projects & communities',
@@ -11,7 +11,7 @@ const audienceBlocks = [
   },
   {
     title: 'Funders & public bodies',
-    desc: 'If you fund or oversee nature restoration, we want to understand how corridor maps could fit into your assessment and reporting processes — what evidence you need and at what scale.',
+    desc: 'If you fund or oversee nature restoration, we want to understand how corridor maps could fit into your assessment and reporting processes what evidence you need and at what scale.',
   },
   {
     title: 'Landowners & farmers',
@@ -81,7 +81,6 @@ export default function Contact() {
             Irish Nature Corridor is a project of Dulra (www.dulra.io), funded by the Lifes2Good Foundation. It is developed in collaboration with ecologists, data scientists and community partners across the island of Ireland.
           </p>
           <p className="mt-4 text-[15px] font-light text-ink/60 leading-[1.7]">
-            The Irish Nature Corridor name and logo may not be used by third parties without written permission. For partnership or media enquiries, please use the contact details above.
           </p>
         </div>
       </Section>
