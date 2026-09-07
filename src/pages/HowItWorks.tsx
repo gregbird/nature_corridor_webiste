@@ -53,7 +53,7 @@ function PipelineDiagram() {
 }
 
 const engineStages = [
-  { num: '1', title: 'Clean & standardise', desc: 'All incoming datasets are harmonised into a common format — consistent projections, habitat classifications and spatial resolution — so they can be combined without errors.' },
+  { num: '1', title: 'Clean & standardise', desc: 'All incoming datasets are harmonised into a common format consistent projections, habitat classifications and spatial resolution so they can be combined without errors.' },
   { num: '2', title: 'Correct for effort', desc: 'Species records are adjusted for recording bias: more records exist near roads and towns, not because more species live there. The engine accounts for this before drawing conclusions.' },
   { num: '3', title: 'Model habitat suitability', desc: 'For each species group, the engine estimates where suitable habitat is likely to exist based on environmental conditions and known habitat preferences.' },
   { num: '4', title: 'Calculate connectivity', desc: 'Suitable habitat patches are linked using least-cost path and circuit-based models, producing corridor maps that show the most ecologically likely routes between them.' },
@@ -71,7 +71,7 @@ const reportOutputs = [
   { num: '01', title: 'Connectivity map', desc: 'A high-resolution map of corridors and habitat patches for the selected area, in standard GIS formats.' },
   { num: '02', title: 'Gap analysis', desc: 'A ranked list of the places where restoring or creating habitat would do most to improve connectivity.' },
   { num: '03', title: 'Habitat summary', desc: 'A structured breakdown of habitat types, their extent and their connectivity status, following the specification below.' },
-  { num: '04', title: 'Data provenance', desc: 'A full list of the datasets, versions and methods used to produce the outputs — for transparency and reproducibility.' },
+  { num: '04', title: 'Data provenance', desc: 'A full list of the datasets, versions and methods used to produce the outputs for transparency and reproducibility.' },
 ];
 
 export default function HowItWorks() {
@@ -127,7 +127,7 @@ export default function HowItWorks() {
         {/* Callout */}
         <div className="mt-10 border-l-2 border-cornflower pl-5 py-2">
           <p className="text-[15px] font-light text-ink/80 leading-relaxed">
-            The engine is designed to be cheap to run. It uses open-source tooling and freely available data, so the entire island can be reprocessed when new data arrives — without significant cost.
+            The engine is designed to use open-source tooling and freely available data, so the entire island can be reprocessed when new data arrives without significant cost.
           </p>
         </div>
       </Section>
