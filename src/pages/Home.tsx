@@ -155,7 +155,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="mt-12 text-[14px] font-light text-ink/50 leading-relaxed">
-            Funded by the Lifes2Good Foundation and Dulra.
+            Funded by the Lifes2Good Foundation.
           </p>
         </div>
       </Section>
