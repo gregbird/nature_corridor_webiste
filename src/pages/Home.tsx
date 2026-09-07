@@ -27,7 +27,7 @@ export default function Home() {
               <strong className="font-semibold">Irish Nature</strong> Corridor
             </h1>
             <p className="mt-6 text-lg font-light text-ink/80 leading-relaxed max-w-editorial">
-              A free-to-use GIS mapping tool showing ecological corridors across the island of Ireland — for ecologists, restoration projects, funders, landowners and the general public.
+              A not for profit GIS mapping tool showing ecological corridors across the island of Ireland for ecologists, restoration projects, funders, landowners and the general public.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <button
@@ -63,7 +63,7 @@ export default function Home() {
           <Eyebrow>Why connectivity matters</Eyebrow>
           <Headline bold="Nature survives" light="when it can move." className="mt-5 text-3xl sm:text-4xl" />
           <p className="mt-6 text-[16px] font-light text-ink/80 leading-[1.7]">
-            Hedgerows, rivers, woodlands and wetlands are more than individual habitats — they are part of a living network. When that network is broken, species become isolated, populations decline, and ecosystems lose their resilience to climate change.
+            Hedgerows, rivers, woodlands and wetlands are more than individual habitats they are part of a living network. When that network is broken, species become isolated, populations decline, and ecosystems lose their resilience to climate change.
           </p>
           <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
             Irish Nature Corridor maps where those connections still exist, where they have been lost, and where restoring them would have the greatest impact. It turns the idea of ecological corridors into something you can see, measure, and act on.
@@ -80,7 +80,7 @@ export default function Home() {
           <Headline bold="Built to support" light="Ireland's nature goals." className="mt-5 text-3xl sm:text-4xl" />
           <div className="mt-6 space-y-5">
             <p className="text-[16px] font-light text-ink/80 leading-[1.7]">
-              Ireland's fourth National Biodiversity Action Plan commits to identifying and protecting ecological corridors. The EU Nature Restoration Law sets binding targets for restoring degraded ecosystems. Irish Nature Corridor provides the mapped evidence base to help meet those commitments — at a scale that is useful for national policy and local action alike.
+              Ireland's fourth National Biodiversity Action Plan commits to identifying and protecting ecological corridors. The EU Nature Restoration Law sets binding targets for restoring degraded ecosystems. Irish Nature Corridor provides the mapped evidence base to help meet those commitments at a scale that is useful for national policy and local action alike.
             </p>
             <p className="text-[16px] font-light text-ink/80 leading-[1.7]">
               It is designed to complement, not replace, existing designations and surveys. Existing protected areas are the anchors; the corridors show how to connect them.
@@ -115,7 +115,7 @@ export default function Home() {
             <NumberMarker number="1" className="block mb-3" />
             <h3 className="text-lg font-medium text-ink">See the network</h3>
             <p className="mt-3 text-[15px] font-light text-ink/75 leading-[1.7]">
-              Visualise where habitat patches are connected and where the gaps fall — at a regional or local scale, in seconds.
+              Visualise where habitat patches are connected and where the gaps fall at a regional or local scale, in seconds.
             </p>
           </div>
           <div>
