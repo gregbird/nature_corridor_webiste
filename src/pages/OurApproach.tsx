@@ -108,7 +108,7 @@ export default function OurApproach() {
           <strong className="font-semibold">Our</strong> approach
         </h1>
         <p className="mt-6 text-lg font-light text-ink/80 leading-relaxed max-w-editorial">
-          A methods statement, in plain language. This page sets out what Irish Nature Corridor models, how it models it, where the data comes from, and how the outputs are checked — so that anyone using the map can understand its strengths and its limits.
+          A methods statement, in plain language. This page sets out what Irish Nature Corridor models, how it models it, where the data comes from, and how the outputs are checked so that anyone using the map can understand its strengths and its limits.
         </p>
       </Section>
 
@@ -129,7 +129,7 @@ export default function OurApproach() {
                 Irish Nature Corridor answers two distinct questions, and it is important not to conflate them. The first is: <em>where is suitable habitat for a given species group likely to exist?</em> The second is: <em>given those habitat patches, how well connected are they?</em>
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
-                The first is a question about habitat suitability — driven by environmental conditions and species preferences. The second is a question about landscape structure — driven by the spatial arrangement of patches and the ease or difficulty of moving between them. Combining the two into a single score would obscure more than it reveals. The tool reports them separately, and the connectivity outputs depend on the suitability outputs, not the other way around.
+                The first is a question about habitat suitability driven by environmental conditions and species preferences. The second is a question about landscape structure driven by the spatial arrangement of patches and the ease or difficulty of moving between them. Combining the two into a single score would obscure more than it reveals. The tool reports them separately, and the connectivity outputs depend on the suitability outputs, not the other way around.
               </p>
             </article>
 
@@ -144,7 +144,7 @@ export default function OurApproach() {
                 The engine models habitat suitability and connectivity for a set of species groups rather than for individual species. This is a deliberate choice: individual-species models require more data than is consistently available across the island, and they produce outputs that are too specific to be useful for landscape-scale planning.
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
-                Species groups are defined by shared habitat needs and movement capabilities — for example, woodland passerines, riparian invertebrates, or wetland plants. A corridor that works for one group will often work for others with similar requirements, which makes the outputs more robust and more actionable.
+                Species groups are defined by shared habitat needs and movement capabilities for example, woodland passerines, riparian invertebrates, or wetland plants. A corridor that works for one group will often work for others with similar requirements, which makes the outputs more robust and more actionable.
               </p>
             </article>
 
@@ -156,7 +156,7 @@ export default function OurApproach() {
                 <strong className="font-semibold">The whole</strong> island
               </h2>
               <p className="mt-5 text-[16px] font-light text-ink/80 leading-[1.7]">
-                Irish Nature Corridor covers the entire island of Ireland — all 32 counties, north and south. Ecological corridors do not respect administrative borders, and neither does the tool. Processing the island as a single unit avoids the artificial breaks that would arise from running separate models on either side of the border, where the same habitat types and species communities exist on both sides.
+                Irish Nature Corridor covers the entire island of Ireland all 32 counties, north and south. Ecological corridors do not respect administrative borders, and neither does the tool. Processing the island as a single unit avoids the artificial breaks that would arise from running separate models on either side of the border, where the same habitat types and species communities exist on both sides.
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
                 Where data sources differ in availability or resolution between jurisdictions, the engine standardises to the coarsest common resolution so that outputs are comparable across the island.
@@ -199,7 +199,7 @@ export default function OurApproach() {
                 <strong className="font-semibold">Correcting</strong> for recording effort
               </h2>
               <p className="mt-5 text-[16px] font-light text-ink/80 leading-[1.7]">
-                Species records are not evenly distributed. More records come from near roads, towns, nature reserves and popular walking routes — not because more species live there, but because more people are there to record them. Without correcting for this, the model would overestimate biodiversity in accessible areas and underestimate it in remote ones.
+                Species records are not evenly distributed. More records come from near roads, towns, nature reserves and popular walking routes not because more species live there, but because more people are there to record them. Without correcting for this, the model would overestimate biodiversity in accessible areas and underestimate it in remote ones.
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
                 The engine adjusts for recording effort by modelling the expected number of records given accessibility, population density and survey coverage, then comparing observed records against that expectation. Areas with fewer records than expected are not assumed to be species-poor; they are flagged as under-recorded, and their suitability estimates carry lower confidence.
@@ -214,10 +214,10 @@ export default function OurApproach() {
                 <strong className="font-semibold">Habitat</strong> suitability
               </h2>
               <p className="mt-5 text-[16px] font-light text-ink/80 leading-[1.7]">
-                For each species group, the engine estimates the probability that suitable habitat exists in a given location. This is based on the environmental conditions at that location — land cover, soil type, elevation, proximity to water, and where available, more detailed habitat maps — combined with what is known about the group's habitat preferences.
+                For each species group, the engine estimates the probability that suitable habitat exists in a given location. This is based on the environmental conditions at that location land cover, soil type, elevation, proximity to water, and where available, more detailed habitat maps combined with what is known about the group's habitat preferences.
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
-                The output is a suitability surface: a grid covering the island where each cell carries a score from 0 to 1. High scores indicate habitat that is likely to support the group; low scores indicate habitat that probably does not. Suitability is not the same as confirmed presence — it is a modelled estimate, and it is reported with a confidence level.
+                The output is a suitability surface: a grid covering the island where each cell carries a score from 0 to 1. High scores indicate habitat that is likely to support the group; low scores indicate habitat that probably does not. Suitability is not the same as confirmed presence it is a modelled estimate, and it is reported with a confidence level.
               </p>
             </article>
 
@@ -229,7 +229,7 @@ export default function OurApproach() {
                 <strong className="font-semibold">From suitability</strong> to connectivity
               </h2>
               <p className="mt-5 text-[16px] font-light text-ink/80 leading-[1.7]">
-                The suitability surface is then used to identify habitat patches — contiguous areas of high suitability above a minimum size. These patches are the nodes of the connectivity model.
+                The suitability surface is then used to identify habitat patches contiguous areas of high suitability above a minimum size. These patches are the nodes of the connectivity model.
               </p>
               <p className="mt-4 text-[16px] font-light text-ink/80 leading-[1.7]">
                 Connectivity between patches is modelled using two complementary approaches. Least-cost path analysis identifies the single most efficient route between two patches given the resistance of the intervening landscape. Circuit theory treats the landscape as a conductive surface and models all possible movement paths simultaneously, which better captures the diffuse, exploratory nature of how many species actually move.
